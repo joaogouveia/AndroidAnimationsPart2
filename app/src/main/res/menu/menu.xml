@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/touch_button"
+            android:checked="false"
+            android:title="@string/touch_button" />
+
+        <item
+            android:id="@+id/frame_animation"
+            android:checked="false"
+            android:title="@string/frame_animation" />
+
+        <item
+            android:id="@+id/touch_view"
+            android:checked="false"
+            android:title="@string/touch_view" />
+
+        <item
+            android:id="@+id/transition_drawable"
+            android:checked="false"
+            android:title="@string/transition_drawable" />
+
+        <item
+            android:id="@+id/color"
+            android:checked="false"
+            android:title="@string/color" />
+
+    </group>
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/gray_border_white_background" android:state_enabled="false" />
+    <item>
+        <ripple android:color="@color/PrimaryColor">
+            <item android:drawable="@drawable/blue_border" />
+        </ripple>
+    </item>
+</selector>

@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/PrimaryColor</item>
+        <item name="colorPrimaryDark">@color/PrimaryDarkColor</item>
+        <item name="colorControlHighlight">@android:color/holo_green_light</item>
+
+        <!--cor do botão-->
+        <item name="colorButtonNormal">@color/PrimaryColor</item>
+
+        <item name="android:textColor">@android:color/black</item>
+
+
+        <item name="android:statusBarColor" tools:ignore="NewApi">@android:color/transparent</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>
