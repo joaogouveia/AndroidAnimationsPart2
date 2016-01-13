@@ -15,6 +15,7 @@ import android.widget.Toast;
 import com.github.joaogouveia.androidanimationspart2.R;
 import com.github.joaogouveia.androidanimationspart2.fragment.TouchButtonFeedbackFragment;
 import com.github.joaogouveia.androidanimationspart2.fragment.ColorFragment;
+import com.github.joaogouveia.androidanimationspart2.fragment.TransitionAutoAPIFragment;
 import com.github.joaogouveia.androidanimationspart2.fragment.TransitionDrawableFragment;
 import com.github.joaogouveia.androidanimationspart2.fragment.TouchViewFeedbackFragment;
 import com.github.joaogouveia.androidanimationspart2.fragment.FrameAnimation;
@@ -76,6 +77,10 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.color:
                         setFragment(ColorFragment.newInstance());
                         toolbar.setTitle("Color");
+                        return true;
+                    case R.id.text_change:
+                        setFragment(TransitionAutoAPIFragment.newInstance());
+                        toolbar.setTitle(getResources().getString(R.string.transition_api_auto));
                         return true;
                     default:
                         Toast.makeText(getApplicationContext(), "Somethings Wrong", Toast.LENGTH_SHORT).show();
